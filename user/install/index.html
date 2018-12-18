@@ -105,6 +105,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#install" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -294,10 +298,62 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Install Guide
+      </label>
     
     <a href="./" title="Install Guide" class="md-nav__link md-nav__link--active">
       Install Guide
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#option-1-powershell-gallery-installation-recommended" title="Option 1: PowerShell Gallery Installation (Recommended)" class="md-nav__link">
+    Option 1: PowerShell Gallery Installation (Recommended)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-2-powershell-gallery-download" title="Option 2: PowerShell Gallery Download" class="md-nav__link">
+    Option 2: PowerShell Gallery Download
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-3-manual-installation" title="Option 3: Manual Installation" class="md-nav__link">
+    Option 3: Manual Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification" title="Verification" class="md-nav__link">
+    Verification
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -626,6 +682,58 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#option-1-powershell-gallery-installation-recommended" title="Option 1: PowerShell Gallery Installation (Recommended)" class="md-nav__link">
+    Option 1: PowerShell Gallery Installation (Recommended)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-2-powershell-gallery-download" title="Option 2: PowerShell Gallery Download" class="md-nav__link">
+    Option 2: PowerShell Gallery Download
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-3-manual-installation" title="Option 3: Manual Installation" class="md-nav__link">
+    Option 3: Manual Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification" title="Verification" class="md-nav__link">
+    Verification
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -634,9 +742,55 @@
                   <a href="https://github.com/HardeningPS/HardeningCore/edit/master/docs/user/install.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Install Guide</h1>
-                
-                
+                <h1 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h1>
+<p>This repository contains a folder named <a href="https://github.com/HardeningPS/HardeningCore/tree/stable/HardeningCore">HardeningCore</a>. The folder needs to be installed into one of your PowerShell Module Paths using one of the installation methods outlined in the next section. To see the full list of available PowerShell Module paths, use <code>$Env:PSModulePath.Split( ';' )</code> in a PowerShell terminal window.</p>
+<p>Common PowerShell module paths include:</p>
+<ol>
+<li>Current User: <code>%USERPROFILE%\Documents\WindowsPowerShell\Modules\</code></li>
+<li>All Users: <code>%ProgramFiles%\WindowsPowerShell\Modules\</code></li>
+<li>OneDrive: <code>$Env:OneDrive\Documents\WindowsPowerShell\Modules\</code></li>
+</ol>
+<h2 id="option-1-powershell-gallery-installation-recommended">Option 1: PowerShell Gallery Installation (Recommended)<a class="headerlink" href="#option-1-powershell-gallery-installation-recommended" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Ensure you have the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=50395">Windows Management Framework 5.0</a> or greater installed.</li>
+<li>Open a PowerShell console with the <em>Run as Administrator</em> option.</li>
+<li>Run <code>Set-ExecutionPolicy</code> using the parameter <em>RemoteSigned</em> or <em>Bypass</em>.</li>
+<li>Run <code>Install-Module -Name 'HardeningCore' -Scope 'CurrentUser'</code> to download the module from the PowerShell Gallery. Note that the first time you install from the remote repository it may ask you to first trust the repository.</li>
+</ol>
+<h2 id="option-2-powershell-gallery-download">Option 2: PowerShell Gallery Download<a class="headerlink" href="#option-2-powershell-gallery-download" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Ensure you have the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=50395">Windows Management Framework 5.0</a> or greater installed.</li>
+<li>Open a PowerShell console with the <em>Run as Administrator</em> option.</li>
+<li>Run <code>Set-ExecutionPolicy</code> using the parameter <em>RemoteSigned</em> or <em>Bypass</em>.</li>
+<li>Run <code>Save-Module -Name 'HardeningCore' -Path &lt;path&gt;</code> to download the module from the PowerShell Gallery. Note that the first time you install from the remote repository it may ask you to first trust the repository.</li>
+<li>Copy the contents of the HardeningCore module folder onto your workstation into the desired PowerShell Module path.</li>
+</ol>
+<h2 id="option-3-manual-installation">Option 3: Manual Installation<a class="headerlink" href="#option-3-manual-installation" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Download the latest <a href="https://github.com/HardeningPS/HardeningCore/releases">release version</a> to your workstation.</li>
+<li>Copy the contents of the <em>HardeningCore</em> folder onto your workstation into the desired PowerShell Module path.</li>
+<li>Open a PowerShell console with the <em>Run as Administrator</em> option.</li>
+<li>Run <code>Set-ExecutionPolicy</code> using the parameter <em>RemoteSigned</em> or <em>Bypass</em>.</li>
+</ol>
+<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Permanent link">&para;</a></h2>
+<p>PowerShell will create a folder for each new version of any module you install. It's a good idea to check and see what version(s) you have installed and running in the session. To begin, let's see what versions of the HardeningCore Module are installed:</p>
+<div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">-ListAvailable</span> <span class="n">-Name</span> <span class="s1">&#39;HardeningCore&#39;</span>
+</pre></div>
+
+<p>The <code>-ListAvailable</code> switch will pull up all installed versions from any path found in <code>$Env:PSModulePath</code>. Check to make sure the version you wanted is installed. You can safely remove old versions, if desired.</p>
+<p>To see which version is currently loaded, use:</p>
+<div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">-Name</span> <span class="s1">&#39;HardeningCore&#39;</span>
+</pre></div>
+
+<p>If nothing is returned, you need to first load the module by using:</p>
+<div class="codehilite"><pre><span></span><span class="nb">Import-Module</span> <span class="n">-Name</span> <span class="s1">&#39;HardeningCore&#39;</span>
+</pre></div>
+
+<p>If you wish to load a specific version, use:</p>
+<div class="codehilite"><pre><span></span><span class="nb">Import-Module</span> <span class="n">-Name</span> <span class="s1">&#39;HardeningCore&#39;</span> <span class="n">-RequiredVersion</span> <span class="nv">$version</span>
+</pre></div>
+
+<p>Where <code>$version</code> is set to the desired version number.</p>
                 
                   
                 
