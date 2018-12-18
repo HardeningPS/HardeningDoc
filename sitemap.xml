@@ -81,16 +81,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://hardening.netboot.fr/configuration/powershell/public/test/</loc>
-     <lastmod>2018-12-18</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://hardening.netboot.fr/configuration/powershell/private/test/</loc>
-     <lastmod>2018-12-18</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://hardening.netboot.fr/configuration/ansible/overview/</loc>
      <lastmod>2018-12-18</lastmod>
      <changefreq>daily</changefreq>
