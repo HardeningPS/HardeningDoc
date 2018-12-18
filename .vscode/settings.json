@@ -1,0 +1,19 @@
+{
+    // Overrides colors from the currently selected color theme.
+    "workbench.colorCustomizations": {
+      "terminal.foreground" : "#ffffff",
+      "terminal.background" : "#012456"
+    },
+
+    // Controls how the editor should render whitespace characters.
+    //  - none
+    //  - boundary: Render whitespace characters except for single spaces between words.
+    //  - all
+    "editor.renderWhitespace": "all",
+
+    // The default language mode that is assigned to new files.
+    "files.defaultLanguage": "markdown",
+
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true
+}

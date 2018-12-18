@@ -1,1 +1,1 @@
-# HardeningDoc
+# The Hardening Community PowerShell Module

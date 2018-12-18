@@ -1,0 +1,98 @@
+# https://www.mkdocs.org/user-guide/configuration/
+
+# Project information
+site_name: 'Hardening Powershell'
+site_description: 'This Powershell module provides numerous security-related configurations, providing all-round basic protection.'
+site_author: 'https://www.thomas-illiet.fr'
+site_url: 'https://hardening.netboot.fr'
+
+# Repository
+repo_name: 'HardeningPS/HardeningCore'
+repo_url: 'https://github.com/HardeningPS/HardeningCore'
+
+# Copyright
+copyright: 'Copyright © 2017-2018 Netboot. All rights reserved.'
+
+# Customization
+extra:
+  social:
+    - type: 'globe'
+      link: 'https://www.thomas-illiet.fr'
+    - type: 'github-alt'
+      link: 'https://github.com/thomas-illiet'
+    - type: 'twitter'
+      link: 'https://twitter.com/thomas_illiet'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/thomas-illiet/'
+
+# Configuration
+theme:
+  name: 'material'
+
+  # Default values, taken from mkdocs_theme.yml
+  language: 'en'
+  feature:
+    tabs: false
+  palette:
+    primary: 'Indigo'
+    accent: 'Indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  favicon: 'content/images/favicon.ico'
+  logo: 'content/images/logo.png'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Getting Started: 'index.md'
+  - User Documentation:
+    - Requirement: 'user/requirement.md'
+    - Install Guide: 'user/install.md'
+    - Update Guide: 'user/update.md'
+    - Uninstall Guide: 'user/uninstall.md'
+    - Getting Started: 'user/getting-started.md'
+    - Project Architecture: 'user/project-architecture.md'
+    - Support: 'user/support.md'
+    - Licensing: 'user/licensing.md'
+    - Contributing: 'user/contributing.md'
+    - Code of Conduct: 'user/code-of-conduct.md'
+    - FAQ: 'user/faq.md'
+  - Configuration:
+    - Ansible:
+      - Overview: 'configuration/ansible/overview.md'
+    - Microsoft Intune:
+      - Overview: 'configuration/microsoft-intune/overview.md'
+    - Powershell DSC:
+      - Overview: 'configuration/powershell-dsc/overview.md'
+    - Powershell:
+      - Overview: 'configuration/powershell/overview.md'
+    - Puppet:
+      - Overview: 'configuration/ansible/overview.md'
