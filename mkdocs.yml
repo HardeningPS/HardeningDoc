@@ -96,4 +96,4 @@ nav:
     - Powershell:
       - Overview: 'configuration/powershell/overview.md'
     - Puppet:
-      - Overview: 'configuration/ansible/overview.md'
+      - Overview: 'configuration/puppet/overview.md'
