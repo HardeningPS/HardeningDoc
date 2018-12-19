@@ -5,6 +5,7 @@ site_name: 'Hardening Powershell'
 site_description: 'This Powershell module provides numerous security-related configurations, providing all-round basic protection.'
 site_author: 'https://www.thomas-illiet.fr'
 site_url: 'https://hardening.netboot.fr'
+edit_uri: ''
 
 # Repository
 repo_name: 'HardeningPS/HardeningCore'
