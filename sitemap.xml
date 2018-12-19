@@ -81,7 +81,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://hardening.netboot.fr/configuration/ansible/overview/</loc>
+     <loc>https://hardening.netboot.fr/configuration/puppet/overview/</loc>
      <lastmod>2018-12-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
