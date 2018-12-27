@@ -2,87 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://hardening.netboot.fr/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/requirement/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/install/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/update/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/uninstall/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/getting-started/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/project-architecture/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://hardening.netboot.fr/user/style-guidelines/</loc>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/support/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/licensing/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/contributing/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/code-of-conduct/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/user/faq/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/configuration/ansible/overview/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/configuration/microsoft-intune/overview/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/configuration/powershell-dsc/overview/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/configuration/powershell/overview/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://hardening.netboot.fr/configuration/puppet/overview/</loc>
-     <lastmod>2018-12-19</lastmod>
+     <lastmod>2018-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
