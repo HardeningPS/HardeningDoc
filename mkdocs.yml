@@ -81,6 +81,7 @@ nav:
     - Uninstall Guide: 'user/uninstall.md'
     - Getting Started: 'user/getting-started.md'
     - Project Architecture: 'user/project-architecture.md'
+    - Style Guidelines: 'user/style-guidelines.md'
     - Support: 'user/support.md'
     - Licensing: 'user/licensing.md'
     - Contributing: 'user/contributing.md'
